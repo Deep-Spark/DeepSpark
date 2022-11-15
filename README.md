@@ -36,10 +36,7 @@ DeepSpark百大应用开放平台作为国内首个AI和通用计算应用开发
     </tr>
 </table>
 
-
-  
-
-注：目前发布支持PyTorch框架。
+注：目前发布主要支持PyTorch和PaddlePaddle框架。
 
 ### 评测体系
 
