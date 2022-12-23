@@ -12,6 +12,6 @@
 
 感谢以下人员做出的贡献：
 
-majorli，li-shi-kun，李睿，Jeff Guo。
+li-shi-kun，tonychen，majorli，李睿，Jeff Guo。
 
 欢迎以任何形式向DeepSpark社区贡献。
