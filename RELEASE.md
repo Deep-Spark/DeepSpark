@@ -1,5 +1,23 @@
 # DeepSpark Release Notes
 
+## 23.03 Release Notes
+
+### 特性和增强
+
+- 新增了对TensorFlow和MindSpore的支持。
+
+- 新增基于TensorFlow和MindSpore的模型各5个，PaddlePaddle模型10个，PyTorch模型15个。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+chenyingtony。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
+---
+
 ## 22.12 Release Notes
 
 ### 特性和增强
