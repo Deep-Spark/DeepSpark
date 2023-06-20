@@ -1,5 +1,27 @@
 # DeepSpark Release Notes
 
+## 23.06 Release Notes
+
+### 特性和增强
+
+- 添加了30个基于PyTorch框架的算法模型，新增了网络剪枝、自监督学习、知识蒸馏这3种模型类别。
+
+- 新增30个模型中有12个使用了开源工具箱：
+
+    - Transformer，U2++ Conformer，Unified Conformer模型基于开源的WeNet工具箱。
+    - ATSS，Cascade R-CNN，CornerNet，DCNV2，RepPoints模型基于开源的MMDetection工具箱。
+    - BART，Convoluntional，RoBERTa，Transformer模型基于开源的Fairseq工具箱。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+majorli。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
+---
+
 ## 23.03 Release Notes
 
 ### 特性和增强
