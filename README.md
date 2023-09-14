@@ -6,6 +6,8 @@
 
 DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应用开放平台)的打造和推广。除此之外DeepSpark社区于2023年3月开源上线了适用于国产通用GPU[天垓100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100)的CUDA应用程序调试工具[ixGDB](https://gitee.com/deep-spark/ixgdb)。将来会有更多相关的项目和成果通过DeepSpark社区开源。
 
+2023年8月，DeepSpark开源社区与[上海白玉兰开源开放研究院](http://baiyulan.org.cn/)签署了战略合作协议，旨在进一步促进人工智能开源事业共建共享，推动产业生态的完善和发展。
+
 欢迎行业合作伙伴、社区用户和开发者以任何形式为DeepSpark开源社区作贡献，期待您的积极参与。
 
 
@@ -25,32 +27,31 @@ DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应�
 
 ### 应用框架
 
-百大应用开放平台将支持国内外主流应用框架和工具箱。
+百大应用开放平台支持国内外主流应用框架和工具箱。
 
 <table border="0">
-    <tr>
-        <td><img src="resources/pytorch.png" height="30"/></td>
-        <td><img src="resources/tensorflow.png" height="40"/></td>
+    <tr align="center">
+        <td><a href="https://github.com/pytorch"><img src="resources/pytorch.png" height="25"/></td>
+        <td><a href="https://github.com/tensorflow"><img src="resources/tensorflow.png" height="25"/></td>
     </tr>
-    <tr>
-        <td><img src="resources/paddle.jpg" height="50"/></td>
-        <td><img src="resources/mindspore.png" height="50"/></td>
+    <tr align="center">
+        <td><a href="https://github.com/paddlepaddle"><img src="resources/paddlepaddle.png" height="40"/></td>
+        <td><a href="https://gitee.com/mindspore"><img src="resources/mindspore.png" height="35"/></td>
     </tr>
-    <tr>
-        <td><img src="resources/fairseq.png" height="50"/></td>
-        <td><img src="resources/hpc.jpg" height="50"/></td>
+    <tr align="center">
+        <td><a href="https://github.com/facebookresearch/fairseq"><img src="resources/fairseq.png" height="50"/></td>
+        <td><a href="https://github.com/open-mmlab/mmdetection"><img src="resources/mmdetection.png" height="50"/></td>
     </tr>
-    <tr>
-        <td><img src="resources/jnerf.png" height="50"/></td>
-        <td><img src="resources/deepmodeling.jpg" height="50"/></td>
+    <tr align="center">
+        <td><a href="https://github.com/wenet-e2e/wenet"><img src="resources/wenet.png" height="50"/></td>
+        <td><a href="https://github.com/deepmodeling"><img src="resources/deepmodeling.png" height="50"/></td>
     </tr>
-    <tr>
-        <td><img src="resources/wenet.png" height="50"/></td>
-        <td><img src="resources/mmdetection.png" height="50"/></td>
+    <tr align="center">
+        <td><a href="https://github.com/hpcaitech/ColossalAI"><img src="resources/colossal-ai.png" height="25"/></td>
+        <td><a href="https://github.com/microsoft/DeepSpeed"><img src="resources/deepspeed.png" height="45"/></td>
     </tr>
 </table>
 
-注：目前的发布已支持业界主流的深度学习框架，包括PyTorch、TensorFlow、PaddlePaddle、MindSpore。
 
 ### 评测体系
 
