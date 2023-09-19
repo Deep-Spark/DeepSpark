@@ -1,5 +1,20 @@
 # DeepSpark Release Notes
 
+## 23.09 Release Notes
+
+### 特性和增强
+
+* DeepSparkHub新增了30个基于PyTorch/TensorFlow/MindSpore/PaddlePaddle的算法模型，涉及计算机视觉，图神经网络，自然语言处理，语音识别等领域。同时新增了基于分布式训练框架Colossal-AI和DeepSpeed的大语言模型LLaMA-7B和ChatGLM-6B的训练示例，以及基于深度学习分子动力学套件DeePMD-kit的水分子模型训练示例。同时修复了一些模型数据集和执行步骤相关的问题。具体详见DeepSparkHub 23.09版本日志 。
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+majorli，tonychen。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
+---
+
 ## 23.06 Release Notes
 
 ### 特性和增强
