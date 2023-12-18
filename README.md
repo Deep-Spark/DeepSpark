@@ -6,7 +6,7 @@
 
 DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应用开放平台)的打造和推广。除此之外DeepSpark社区于2023年3月开源上线了适用于国产通用GPU[天垓100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100)的CUDA应用程序调试工具[ixGDB](https://gitee.com/deep-spark/ixgdb)。将来会有更多相关的项目和成果通过DeepSpark社区开源。
 
-2023年8月，DeepSpark开源社区与[上海白玉兰开源开放研究院](http://baiyulan.org.cn/)签署了战略合作协议，旨在进一步促进人工智能开源事业共建共享，推动产业生态的完善和发展。
+2023年8月，DeepSpark开源社区与[上海白玉兰开源开放研究院](http://baiyulan.org.cn/)签署了战略合作协议，旨在进一步促进人工智能开源事业共建共享，推动产业生态的完善和发展。2023年11月，DeepSpark社区与[启智社区](https://openi.pcl.ac.cn/)开展合作，社区用户可通过启智云脑提供的[天垓100算力](https://openi.pcl.ac.cn/iluvatar/TianGai100)训练来自DeepSparkHub的模型。
 
 欢迎行业合作伙伴、社区用户和开发者以任何形式为DeepSpark开源社区作贡献，期待您的积极参与。
 
