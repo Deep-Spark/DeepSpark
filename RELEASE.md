@@ -4,7 +4,7 @@
 
 ### 特性和增强
 
-* DeepSparkHub 23.12版本新增了30个基于PyTorch/PaddlePaddle的算法模型，涉及计算机视觉，自然语言处理，语音识别，多模态，图神经网络，推荐和强化学习等领域。同时新增了基于分布式训练框架Megatron-DeepSpeed的大语言模型LLaMA2-7B的训练示例。同时修复了一些模型执行步骤和版本兼容相关的问题。具体详见DeepSpark 23.12版本日志 。
+* DeepSparkHub 23.12版本新增了30个基于PyTorch和PaddlePaddle框架的算法模型，涉及计算机视觉、自然语言处理、语音识别、多模态、图神经网络、推荐和强化学习等领域。同时新增了基于分布式训练框架Megatron-DeepSpeed的大语言模型LLaMA2-7B的训练示例，并修复了一些模型执行步骤和版本兼容相关的问题。具体详见DeepSparkHub 23.12版本日志。
 
 ### 贡献者
 
