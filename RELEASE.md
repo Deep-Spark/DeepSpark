@@ -4,7 +4,7 @@
 
 ### 特性和增强
 
-* DeepSparkHub 24.03版本新增了10个基于PyTorch和PaddlePaddle框架的算法模型，涉及计算机视觉、多模态领域。同时新增了大语言模型Megatron-DeepSpeed LLaMA2-7B SFT和DeepSpeed LLaMa2 7B Reward Model Finetuning的训练示例，并修复了一些模型执行步骤和版本兼容相关的问题。具体详见DeepSparkHub 24.03版本日志。
+* DeepSparkHub 24.03版本新增了10个基于PyTorch和PaddlePaddle框架的算法模型，涉及计算机视觉、多模态领域。同时新增了大语言模型Megatron-DeepSpeed Llama-2-7B SFT和DeepSpeed Llama-2-7B Reward Model Finetuning的训练示例，并修复了一些模型执行步骤和版本兼容相关的问题。具体详见DeepSparkHub 24.03版本日志。
 
 ### 贡献者
 
