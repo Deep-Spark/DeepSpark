@@ -18,7 +18,9 @@ DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应�
 
 ### 应用算法和模型
 
-百大应用开放平台甄选上百个[应用算法和模型](https://gitee.com/deep-spark/deepsparkhub)，覆盖AI和通用计算各领域，支持主流市场智能计算场景，包括智慧城市、数字个人、医疗、教育、通信、能源等多个领域。
+[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)甄选上百个开源应用算法和模型，覆盖AI和通用计算各领域，支持主流市场智能计算场景，包括智慧城市、数字个人、医疗、教育、通信、能源等多个领域。
+
+[DeepSparkInference](https://gitee.com/deep-spark/deepsparkinference)精选基于国产推理引擎IGIE和IxRT的推理模型示例和指导文档，部分模型提供了基于国产通用GPU[智铠100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-tlxltt-zk100)的评测结果。
 
 ### 应用框架
 
@@ -72,13 +74,21 @@ DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应�
 
    不限制框架、不限制源语、不限制硬件
 
+### 多维度评测社区版
+
+[多维度评测社区版](https://mdb.deepspark.org.cn:8086/)是一款基于[多维度评测体系标准](#评测体系)开发的线上评测工具，通过在同等条件下对BI-V100和NV-V100加速卡在六个维度（速度，准确度，线性度，功耗效率，显存效率，稳定性）上进行模型训练评测、指标收集和六维度雷达图展示，方便用户更加全面的对比评估GPU加速卡的综合能力。 多维度评测社区版第一期的评测模型全部为训练模型，均来自[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)训练模型仓库，以下为第一期已支持的模型列表：
+
+![model list](evaluation/Iluvatar/assets/mdb_model_list_1.png)
+
+使用方法详见[多维度评测社区版使用指南](evaluation/Iluvatar/Mdims-benchmark.md)。
+
 --------
 
 ### 硬件评测方法和结果
 
 #### 天垓100通用GPU
 
-评测方法详见 [天垓100六维度评测方法](evaluation/Iluvatar/six_dimension_howto.md)。
+评测方法详见[天垓100六维度评测方法](evaluation/Iluvatar/six_dimension_howto.md)。
 
 评测结果如下：
 
