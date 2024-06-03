@@ -84,3 +84,11 @@
 #### 点击左下导航栏“曲面图”按钮，在右上进程模型选择和参数配置后，点击“查看曲面图”，将展示两款GPU加速卡在各个模型类别下表现的曲面图
 
 ![mdb_qu_mian_tu](assets/mdb_qu_mian_tu.png)
+
+## 链接
+
+- 社区网站：<https://www.deepspark.org.cn>
+
+- 工具链接：<https://mdb.deepspark.org.cn:8086>
+
+- 联系我们：<contact@deepspark.org.cn>
