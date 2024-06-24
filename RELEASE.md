@@ -1,5 +1,22 @@
 # DeepSpark Release Notes
 
+## 24.06 Release Notes
+
+### 特性和增强
+
+* DeepSparkHub 24.06版本新增了7个PyTorch训练模型和对OpenPCDet工具箱的支持，同时新增了8个基于DeepSpeed，Megatron DeepSpeed和Firefly的大语言模型的训练示例，并修复了一些模型执行步骤和版本兼容相关的问题。具体详见DeepSparkHub 24.06版本日志。
+* DeepSparkInference 24.06版本新增了31个推理模型示例，其中支持IGIE推理引擎的16个，支持IxRT推理引擎的15个，涵盖计算机视觉，自然语言处理等领域。同时新增了4个基于vLLM，TensorRT-LLM和Text Generation Inference的大语言模型的推理示例。具体详见DeepSparkInference 24.06版本日志 。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+majorli。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
+---
+
 ## 24.03 Release Notes
 
 ### 特性和增强
