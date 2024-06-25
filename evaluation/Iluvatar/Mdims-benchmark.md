@@ -13,11 +13,11 @@
 
 ### Step 1：新用户首次使用多维度评测社区版，需要先进行用户注册
 
-![mdb_user_reg1](assets/mdb_user_reg1.jpg)
+![mdb_user_reg1](assets/mdb_user_reg1.png)
 
 ### Step 2：填写如下“用户注册”表单，建议勾选“任务状态通知”单选框
 
-![mdb_user_reg2](assets/mdb_user_reg2.jpg)
+![mdb_user_reg2](assets/mdb_user_reg2.png)
 
 ### Step 3：完成用户注册后可登录该用户体验多维度评测社区版
 
