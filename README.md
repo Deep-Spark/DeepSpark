@@ -74,13 +74,17 @@ DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应�
 
    不限制框架、不限制源语、不限制硬件
 
-### 多维度评测社区版
+### 多维度评测系统
 
-[多维度评测社区版](https://mdb.deepspark.org.cn:8086/)是一款基于[多维度评测体系标准](#评测体系)开发的线上评测工具，通过在同等条件下对BI-V100和NV-V100加速卡在六个维度（速度，准确度，线性度，功耗效率，显存效率，稳定性）上进行模型训练评测、指标收集和六维度雷达图展示，方便用户更加全面的对比评估GPU加速卡的综合能力。 多维度评测社区版第一期的评测模型全部为训练模型，均来自[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)训练模型仓库，以下为第一期已支持的模型列表：
+[多维度评测系统](https://mdb.deepspark.org.cn:8086/)是一款基于[多维度评测体系标准](#评测体系)开发的线上评测工具，通过在同等条件下对BI-V100和NV-V100加速卡在六个维度（速度，准确度，线性度，功耗效率，显存效率，稳定性）上进行模型训练评测、指标收集和六维度雷达图展示，方便用户更加全面的对比评估GPU加速卡的综合能力。多维度评测系统第一期的评测模型全部为训练模型，均来自[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)训练模型仓库，以下为第一期已支持的模型列表：
 
-![model list](evaluation/Iluvatar/assets/mdb_model_list_1.png)
+![training model list](evaluation/Iluvatar/assets/mdb_model_list_1.png)
 
-使用方法详见[多维度评测社区版使用指南](evaluation/Iluvatar/Mdims-benchmark.md)。
+多维度评测系统第二期新增了6个来自[DeepSparkInference](https://gitee.com/deep-spark/deepsparkinference)的推理模型：
+
+![inference model list](evaluation/Iluvatar/assets/mdb_model_list_2.png)
+
+使用方法详见[多维度评测系统使用指南](evaluation/Iluvatar/Mdims-benchmark.md)。
 
 --------
 
