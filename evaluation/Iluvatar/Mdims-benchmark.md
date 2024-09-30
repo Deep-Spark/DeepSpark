@@ -2,20 +2,16 @@
 
 ## 简介
 
-[多维度评测社区版](https://mdb.deepspark.org.cn:8086)是一款基于[多维度评测体系标准](https://gitee.com/deep-spark/deepspark/blob/master/README.md#%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BB)开发的线上评测工具，通过在同等条件下对BI-V100和NV-V100加速卡在六个维度（速度，准确度，线性度，功耗效率，显存效率，稳定性）上进行模型训练评测、指标收集和六维度雷达图展示，方便用户更加全面的对比评估GPU加速卡的综合能力。
-多维度评测社区版第一期的评测模型全部为训练模型，均来自DeepSpark开源社区的[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)训练模型仓库，以下为第一期已支持的模型列表：
+[多维度评测系统](https://mdb.deepspark.org.cn:8086)是一款基于[多维度评测体系标准](https://gitee.com/deep-spark/deepspark/blob/master/README.md#%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BB)开发的线上评测工具，通过在同等条件下对不同加速卡在多个维度（如速度，准确度，线性度，功耗效率，显存效率，稳定性）上进行模型评测、指标收集和多维度雷达图展示，方便用户更加全面的对比评估GPU加速卡的综合能力。
+多维度评测系统的训练、推理评测模型分别来自[DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub)训练模型仓库和[DeepSparkInference](https://gitee.com/deep-spark/deepsparkinference)推理模型仓库：
 
 ![mdb_model_list_1](assets/mdb_model_list_1.png)
 
-DeepSpark 24.09版本新增对推理模型评测的支持：
-
-![mdb_model_list_2](assets/mdb_model_list_2.png)
-
-多维度评测社区版未来还会持续演进，丰富模型类别和添加推理模型多维度评测，欢迎各位第一时间使用和体验。如有任何问题或建议，可随时在DeepSpark开源社区的[Issue标签页](https://gitee.com/deep-spark/deepspark/issues)提交Issue。
+多维度评测系统未来还会持续演进，丰富模型类别和添加更多评测模型，欢迎各位第一时间使用和体验。如有任何问题或建议，可随时在DeepSpark开源社区的[Issue标签页](https://gitee.com/deep-spark/deepspark/issues)提交Issue。
 
 ## 用户注册
 
-### Step 1：新用户首次使用多维度评测社区版，需要先进行用户注册
+### Step 1：新用户首次使用多维度评测系统，需要先进行用户注册
 
 ![mdb_user_reg1](assets/mdb_user_reg1.png)
 
@@ -23,11 +19,11 @@ DeepSpark 24.09版本新增对推理模型评测的支持：
 
 ![mdb_user_reg2](assets/mdb_user_reg2.png)
 
-### Step 3：完成用户注册后可登录该用户体验多维度评测社区版
+### Step 3：完成用户注册后可登录该用户体验多维度评测系统
 
 ![mdb_user_login](assets/mdb_user_login.png)
 
-### Step 4：多维度评测社区版主界面如下所示
+### Step 4：多维度评测系统主界面如下所示
 
 - 左上导航栏的`“?”`问号链接到本帮助文档
 - 左中“模型集合”展示了当前支持的模型列表，第一期只支持训练模型，可通过上面的“文本框”进行关键字检索
@@ -43,7 +39,7 @@ DeepSpark 24.09版本新增对推理模型评测的支持：
 
 ## 评测任务
 
-多维度评测社区版支持“指定GPU卡单次评测”和“两款GPU卡对比测试”，评测完成的结果将汇总到数据库中，供雷达图和曲面图展示使用。
+多维度评测系统支持“指定GPU卡单次评测”和“两款GPU卡对比测试”，评测完成的结果将汇总到数据库中，供雷达图和曲面图展示使用。
 
 > 注：在资源有限的情况下，为保障社区用户的使用体验，触发的评测任务将自动进行排队，且有相应的任务最大配额限制。
 
