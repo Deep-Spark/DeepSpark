@@ -7,6 +7,10 @@
 
 ![mdb_model_list_1](assets/mdb_model_list_1.png)
 
+DeepSpark 24.09版本新增对推理模型评测的支持：
+
+![mdb_model_list_2](assets/mdb_model_list_2.png)
+
 多维度评测社区版未来还会持续演进，丰富模型类别和添加推理模型多维度评测，欢迎各位第一时间使用和体验。如有任何问题或建议，可随时在DeepSpark开源社区的[Issue标签页](https://gitee.com/deep-spark/deepspark/issues)提交Issue。
 
 ## 用户注册
