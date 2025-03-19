@@ -1,5 +1,34 @@
 # DeepSpark Release Notes
 
+## 25.03 Release Notes
+
+### 特性和增强
+* 增加天数智算软件栈IXUCA的说明。
+* DeepSparkHub 25.03版本新增了9个基于MoE-LLaVA，DeepSpeed和LLaMA-Factory的大语言模型的训练示例。具体详见DeepSparkHub 25.03版本日志。
+* DeepSparkInference 25.03版本新增了25个推理小模型，涵盖图片分类，对象检测和姿态估计等领域，并新增了5个基于vLLM和ixFormer的大语言模型的推理示例。具体详见DeepSparkInference 25.03版本日志。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+YoungPeng，xinchi.tian，xiaomei.wang，qiang.zhang，李一力，sanghui-ilu，honglyua，majorli6，吴永乐。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
+## 24.12 Release Notes
+
+### 特性和增强
+* DeepSparkHub 24.12版本新增了4个PyTorch模型，其中2个为Multimodal模型，同时新增了5个基于ColossalAI，Megatron-LM和LLaMA-Factory的大语言模型的训练示例。具体详见DeepSparkHub 24.12版本日志。
+* DeepSparkInference 24.12版本新增了24个推理小模型，涵盖图片分类，对象检测和文字识别等领域，并新增了9个基于vLLM和ixFormer的大语言模型的推理示例。具体详见DeepSparkInference 24.12版本日志。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+YoungPeng，xinchi.tian，xiaomei.wang，qiang.zhang，李一力，sanghui-ilu，honglyua，majorli6，吴永乐。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
 ## 24.09 Release Notes
 
 ### 特性和增强
