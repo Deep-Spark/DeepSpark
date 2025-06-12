@@ -1,5 +1,21 @@
 # DeepSpark Release Notes
 
+## 25.06 Release Notes
+
+### 特性和增强
+
+* DeepSpark 增加了首页的英文版README文档。
+* DeepSparkHub 新增了5个大模型强化学习微调示例，使用了verl和OpenRLHF工具箱。详见[25.06版本日志](https://gitee.com/deep-spark/deepsparkhub/blob/master/RELEASE.md)。
+* DeepSparkInference 新增了24个推理小模型，涵盖视觉分类，对象检测和语义分割等领域，并新增了6个基于vLLM的大语言模型的推理示例，其中3个为多模态模型。详见[25.06版本日志](https://gitee.com/deep-spark/deepsparkinference/blob/master/RELEASE.md)。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+YoungPeng，张文风，qiang.zhang，李一力，sanghui-ilu，honglyua，majorli6，吴永乐。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
 ## 25.03 Release Notes
 
 ### 特性和增强
