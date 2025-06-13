@@ -14,7 +14,7 @@ In the time when everything is computable, applications in various fields are em
 
 Guided by the principles of "co-building platforms, sharing ecosystems, and winning together in the industry," the Iluvatar CoreX is committed to collaborating with industry partners to establish the [DeepSpark Open Source Community](https://www.deepspark.org.cn/). By giving back to the open-source community through open-source contributions, we aim to gather community strength, help customers accelerate application deployment and benefit from computing power empowerment, and promote the improvement and development of the industry ecosystem.
 
-Currently, the DeepSpark Open Source Community is primarily focused on building and promoting the [Hundreds of Applications Open Platform](#hundreds-of-applications-open-platform). Additionally, in March 2023, the DeepSpark community open-sourced and launched [ixGDB](https://gitee.com/deep-spark/ixgdb), a CUDA application debugging tool compatible with the self-developed GPGPU [TianGai 100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100). In the future, more related projects and achievements will be open-sourced through the DeepSpark community.
+Currently, the DeepSpark Open Source Community is primarily focused on building and promoting the [Hundreds of Applications Open Platform](#hundreds-of-applications-open-platform), In the future, more related projects and achievements will be open-sourced through the DeepSpark community.
 
 In August 2023, the DeepSpark Open Source Community signed a strategic cooperation agreement with the [Shanghai Baiyulan Open Source Research Institute](http://baiyulan.org.cn/) to further promote the co-construction and sharing of AI open-source initiatives and drive the improvement and development of the industry ecosystem. In November 2023, the DeepSpark community collaborated with the [OpenI Community](https://openi.pcl.ac.cn/), enabling community users to train models from DeepSparkHub using the [TianGai 100 computing power](https://openi.pcl.ac.cn/iluvatar/TianGai100) provided by OpenI's cloud brain.
 
@@ -43,8 +43,6 @@ IXUCA is compatible with mainstream GPGPU computing models, providing equivalent
 - The libraries in IXUCA not only support general-purpose computing but also provide fundamental operators required for deep learning application development. Developers can conveniently utilize these operators to flexibly construct various deep neural network models and other machine learning algorithms.
 
 You can visit the [Resource Center](https://support.iluvatar.com/#/ProductLine?id=2) on Iluvatar CoreX's official website to obtain the IXUCA software stack.
-
-![IXUCA](resources/Iluvatar_stack.png)
 
 ### Application Frameworks
 

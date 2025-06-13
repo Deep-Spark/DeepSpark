@@ -14,7 +14,7 @@
 
 天数智芯本着“平台共建、生态共享、产业共赢”的原则，致力于和行业伙伴一起打造[DeepSpark开源社区](https://www.deepspark.org.cn/)，以来自开源回馈开源的方式，汇聚社区力量，助力客户加速应用落地和收获算力赋能，促进产业生态的完善和发展。
 
-DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应用开放平台)的打造和推广。除此之外DeepSpark社区于2023年3月开源上线了适用于国产通用GPU[天垓100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100)的CUDA应用程序调试工具[ixGDB](https://gitee.com/deep-spark/ixgdb)。将来会有更多相关的项目和成果通过DeepSpark社区开源。
+DeepSpark开源社区目前主要致力于[百大应用开放平台](#百大应用开放平台)的打造和推广，将来会有更多相关的项目和成果通过DeepSpark社区开源。
 
 2023年8月，DeepSpark开源社区与[上海白玉兰开源开放研究院](http://baiyulan.org.cn/)签署了战略合作协议，旨在进一步促进人工智能开源事业共建共享，推动产业生态的完善和发展。2023年11月，DeepSpark社区与[启智社区](https://openi.pcl.ac.cn/)开展合作，社区用户可通过启智云脑提供的[天垓100算力](https://openi.pcl.ac.cn/iluvatar/TianGai100)训练来自DeepSparkHub的模型。
 
@@ -43,8 +43,6 @@ IXUCA兼容主流GPU通用计算模型，提供支持主流GPU通用计算模型
 - IXUCA的函数库不仅支持通用计算还提供了深度学习应用开发所需的基础算子，开发者可以便捷地调用这些算子灵活地构造各类深度神经网络模型以及其他机器学习领域的算法。
 
 您可前往天数智芯官方网站的[资源中心](https://support.iluvatar.com/#/ProductLine?id=2)获取天数智算软件栈。
-
-![IXUCA](resources/Iluvatar_stack.png)
 
 ### 应用框架
 
