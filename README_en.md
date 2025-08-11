@@ -1,12 +1,14 @@
-[<img src="https://img.shields.io/badge/Language-English-blue.svg">](README_en.md) [<img src="https://img.shields.io/badge/语言-简体中文-red.svg">](README.md)
+<!-- markdownlint-disable first-line-h1 -->
+<!-- markdownlint-disable html -->
+[<img alt="English" src="https://img.shields.io/badge/Language-English-blue.svg">](README_en.md) [<img alt="Chinese" src="https://img.shields.io/badge/语言-简体中文-red.svg">](README.md)
 
 # DeepSpark Open Source Community
 
 <div align="center" style="line-height: 1;">
   <a href="https://www.deepspark.org.cn"><img alt="Homepage"
     src="https://img.shields.io/badge/DeepSpark-Homepage-blue.svg"/></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-dfd.svg"></a>
-  <a href="https://gitee.com/deep-spark/deepspark/releases/latest"><img src="https://img.shields.io/github/v/release/deep-spark/deepspark?color=ffa"></a>
+  <a href="./LICENSE"><img alt="LICENSE" src="https://img.shields.io/badge/license-Apache%202.0-dfd.svg"></a>
+  <a href="https://gitee.com/deep-spark/deepspark/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/deep-spark/deepspark?color=ffa"></a>
 </div>
 <br>
 
@@ -50,24 +52,24 @@ The Hundreds of Applications Open Platform supports mainstream application frame
 
 <table border="0">
     <tr align="center">
-        <td><a href="https://github.com/pytorch"><img src="resources/pytorch.png" height="25"/></td>
-        <td><a href="https://github.com/tensorflow"><img src="resources/tensorflow.png" height="25"/></td>
+        <td><a href="https://github.com/pytorch"><img alt="pytorch" src="resources/pytorch.png" height="25"/></td>
+        <td><a href="https://github.com/tensorflow"><img alt="tensorflow" src="resources/tensorflow.png" height="25"/></td>
     </tr>
     <tr align="center">
-        <td><a href="https://github.com/paddlepaddle"><img src="resources/paddlepaddle.png" height="40"/></td>
-        <td><a href="https://github.com/microsoft/DeepSpeed"><img src="resources/deepspeed.png" height="40"/></td>
+        <td><a href="https://github.com/paddlepaddle"><img alt="paddlepaddle" src="resources/paddlepaddle.png" height="40"/></td>
+        <td><a href="https://github.com/microsoft/DeepSpeed"><img alt="deepspeed" src="resources/deepspeed.png" height="40"/></td>
     </tr>
     <tr align="center">
-        <td><a href="https://github.com/facebookresearch/fairseq"><img src="resources/fairseq.png" height="40"/></td>
-        <td><a href="https://github.com/open-mmlab/mmdetection"><img src="resources/mmdetection.png" height="40"/></td>
+        <td><a href="https://github.com/facebookresearch/fairseq"><img alt="fairseq" src="resources/fairseq.png" height="40"/></td>
+        <td><a href="https://github.com/open-mmlab/mmdetection"><img alt="mmdetection" src="resources/mmdetection.png" height="40"/></td>
     </tr>
     <tr align="center">
-        <td><a href="https://github.com/wenet-e2e/wenet"><img src="resources/wenet.png" height="40"/></td>
-        <td><a href="https://github.com/hpcaitech/ColossalAI"><img src="resources/colossal-ai.png" height="30"/></td>
+        <td><a href="https://github.com/wenet-e2e/wenet"><img alt= "wenet" src="resources/wenet.png" height="40"/></td>
+        <td><a href="https://github.com/hpcaitech/ColossalAI"><img alt= "colossal-ai" src="resources/colossal-ai.png" height="30"/></td>
     </tr>
     <tr align="center">
-        <td><a href="https://github.com/deepmodeling"><img src="resources/deepmodeling.png" height="40"/></td>
-        <td><a href="https://github.com/hiyouga/LLaMA-Factory"><img src="resources/llama-factory.png" height="45"/></td>
+        <td><a href="https://github.com/deepmodeling"><img alt="deepmodeling" src="resources/deepmodeling.png" height="40"/></td>
+        <td><a href="https://github.com/hiyouga/LLaMA-Factory"><img alt="llama-factory" src="resources/llama-factory.png" height="45"/></td>
     </tr>
 </table>
 
