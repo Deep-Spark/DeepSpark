@@ -1,6 +1,22 @@
 <!-- markdownlint-disable no-duplicate-heading -->
 # DeepSpark Release Notes
 
+## 25.09 Release Notes
+
+### 特性和增强
+
+* DeepSpark 修复了README文件中markdownlint的问题。
+* DeepSparkHub 10个大模型强化学习微调示例，使用了verl、OpenRLHF、Megatron-LM、Colossal-AI和deepspeed工具箱。详见[25.09版本日志](https://gitee.com/deep-spark/deepsparkhub/releases/tag/25.09)。
+* DeepSparkInference 新增了19个推理小模型示例，涵盖视觉分类，对象检测和语义分割等领域，并新增了11个大语言模型的推理示例，涉及vLLM、FastDeploy、LMDeploy等框架。详见[25.09版本日志](https://gitee.com/deep-spark/deepsparkinference/releases/tag/25.09)。
+
+### 贡献者
+
+感谢以下人员做出的贡献：
+
+YoungPeng，fhfang，郭寒冰，qiang.zhang，sanghui_ilu，李一力，郝燕龙，胡方健，lsy789，张汉涛，fanglaipeng，majorli6，honglyua。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
 ## 25.06 Release Notes
 
 ### 特性和增强
