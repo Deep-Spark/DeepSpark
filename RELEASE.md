@@ -1,21 +1,4 @@
-<!-- markdownlint-disable no-duplicate-heading -->
 # DeepSpark Release Notes
-
-## 25.09 Release Notes
-
-### 特性和增强
-
-* DeepSpark 修复了README文件中markdownlint的问题。
-* DeepSparkHub 10个大模型强化学习微调示例，使用了verl、OpenRLHF、Megatron-LM、Colossal-AI和deepspeed工具箱。详见[25.09版本日志](https://gitee.com/deep-spark/deepsparkhub/releases/tag/25.09)。
-* DeepSparkInference 新增了19个推理小模型示例，涵盖视觉分类，对象检测和语义分割等领域，并新增了11个大语言模型的推理示例，涉及vLLM、FastDeploy、LMDeploy等框架。详见[25.09版本日志](https://gitee.com/deep-spark/deepsparkinference/releases/tag/25.09)。
-
-### 贡献者
-
-感谢以下人员做出的贡献：
-
-YoungPeng，fhfang，郭寒冰，qiang.zhang，sanghui_ilu，李一力，郝燕龙，胡方健，lsy789，张汉涛，fanglaipeng，majorli6，honglyua。
-
-欢迎以任何形式向DeepSpark社区贡献。
 
 ## 25.06 Release Notes
 
@@ -135,7 +118,6 @@ majorli。
 ### 特性和增强
 
 * DeepSparkHub新增了30个基于PyTorch/TensorFlow/MindSpore/PaddlePaddle的算法模型，涉及计算机视觉，图神经网络，自然语言处理，语音识别等领域。同时新增了基于分布式训练框架Colossal-AI和DeepSpeed的大语言模型LLaMA-7B和ChatGLM-6B的训练示例，以及基于深度学习分子动力学套件DeePMD-kit的水分子模型训练示例。同时修复了一些模型数据集和执行步骤相关的问题。具体详见DeepSparkHub 23.09版本日志 。
-
 ### 贡献者
 
 感谢以下人员做出的贡献：
@@ -150,11 +132,13 @@ majorli，tonychen。
 
 ### 特性和增强
 
-* 添加了30个基于PyTorch框架的算法模型，新增了网络剪枝、自监督学习、知识蒸馏这3种模型类别。
-* 新增30个模型中有12个使用了开源工具箱：
-  * Transformer，U2++ Conformer，Unified Conformer模型基于开源的WeNet工具箱。
-  * ATSS，Cascade R-CNN，CornerNet，DCNV2，RepPoints模型基于开源的MMDetection工具箱。
-  * BART，Convoluntional，RoBERTa，Transformer模型基于开源的Fairseq工具箱。
+- 添加了30个基于PyTorch框架的算法模型，新增了网络剪枝、自监督学习、知识蒸馏这3种模型类别。
+
+- 新增30个模型中有12个使用了开源工具箱：
+
+    - Transformer，U2++ Conformer，Unified Conformer模型基于开源的WeNet工具箱。
+    - ATSS，Cascade R-CNN，CornerNet，DCNV2，RepPoints模型基于开源的MMDetection工具箱。
+    - BART，Convoluntional，RoBERTa，Transformer模型基于开源的Fairseq工具箱。
 
 ### 贡献者
 
@@ -170,9 +154,9 @@ majorli。
 
 ### 特性和增强
 
-* 新增了对TensorFlow和MindSpore的支持。
+- 新增了对TensorFlow和MindSpore的支持。
 
-* 新增基于TensorFlow和MindSpore的模型各5个，PaddlePaddle模型10个，PyTorch模型15个。
+- 新增基于TensorFlow和MindSpore的模型各5个，PaddlePaddle模型10个，PyTorch模型15个。
 
 ### 贡献者
 
@@ -188,9 +172,9 @@ chenyingtony。
 
 ### 特性和增强
 
-* SATRN，Conformer和ngp-nerf模型更新[六维度评测数据](README.md#硬件评测方法和结果)。
-* 添加了基于国产通用GPU天垓100的六维度评测[方法](evaluation/Iluvatar/six_dimension_howto.md)和[示例](evaluation/Iluvatar/six_dimension_howto_example.md)。
-* 应用开放平台新增基于PaddlePaddle框架的19个[模型](https://gitee.com/deep-spark/deepsparkhub)。
+- SATRN，Conformer和ngp-nerf模型更新[六维度评测数据](README.md#硬件评测方法和结果)。
+- 添加了基于国产通用GPU天垓100的六维度评测[方法](evaluation/Iluvatar/six_dimension_howto.md)和[示例](evaluation/Iluvatar/six_dimension_howto_example.md)。
+- 应用开放平台新增基于PaddlePaddle框架的19个[模型](https://gitee.com/deep-spark/deepsparkhub)。
 
 ### 贡献者
 
