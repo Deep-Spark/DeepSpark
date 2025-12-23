@@ -89,7 +89,7 @@ IXUCA is compatible with mainstream GPGPU computing models, providing equivalent
 
 ### How To
 
-You can visit the [Resource Center](https://support.iluvatar.com/#/ProductLine?id=2) on Iluvatar CoreX's official website to obtain the IXUCA software stack. Then you can refer to the quick start guide to install IXUCA SDK into your environments and run training or inference samples in DeepSparkHub and DeepSparkInference modelzoo.
+You can visit the [Resource Center](https://support.iluvatar.com/#/ProductLine?id=2) on Iluvatar CoreX's official website to obtain the IXUCA software stack. Then you can refer to the [quick start guide](docs/quickstart.md) to install IXUCA SDK into your environments and run training or inference samples in DeepSparkHub and DeepSparkInference modelzoo.
 
 --------
 

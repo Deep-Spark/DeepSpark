@@ -12,7 +12,7 @@
 
 #### 特性和增强
 
-* DeepSpark 新增了在天数智芯加速卡环境上[快速开始](docs/quickstart.md)的指导文档
+* DeepSpark 新增了在天数智芯加速卡环境上[快速开始](docs/quickstart.md)的指导文档。
 * DeepSparkHub 新增了8个使用LLaMA-Factory工具箱的大模型训练微调示例。详见[25.12](https://gitee.com/deep-spark/deepsparkhub/releases/tag/25.12)版本日志。
 * DeepSparkInference 新增了15个推理小模型示例，涵盖视觉分类，对象检测和多目标跟踪等领域，同时新增了8个大语言模型的推理示例，涉及vLLM和Diffusers框架。详见[25.12](https://gitee.com/deep-spark/deepsparkinference/releases/tag/25.12)版本日志。
 
