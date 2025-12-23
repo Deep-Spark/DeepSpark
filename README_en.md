@@ -22,8 +22,6 @@ In August 2023, the DeepSpark Open Source Community signed a strategic cooperati
 
 We welcome industry partners, community users, and developers to contribute to the DeepSpark Open Source Community in any form. Your active participation is highly anticipated.
 
---------
-
 ## Hundreds of Applications Open Platform
 
 As a leading domestic AI and general-purpose computing application development and evaluation platform, the Hundreds of Applications Open Platform carefully selects hundreds of open-source algorithms and models deeply integrated with industry applications. It supports mainstream ecosystem application frameworks and builds a multi-dimensional evaluation system tailored to industry needs, widely supporting various implementation scenarios.
@@ -32,7 +30,52 @@ As a leading domestic AI and general-purpose computing application development a
 
 [DeepSparkHub](https://gitee.com/deep-spark/deepsparkhub) selects hundreds of open-source application algorithms and models, covering various fields of AI and general-purpose computing. It supports mainstream intelligent computing scenarios in the market, including smart cities, digital individuals, healthcare, education, telecommunications, and energy.
 
-[DeepSparkInference](https://gitee.com/deep-spark/deepsparkinference) selects inference model examples and guidance documents based on the independant-developed inference engines IGIE and ixRT. Some models provide evaluation results based on the self-developed GPGPU [ZhiKai 100](https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-tlxltt-zk100).
+[DeepSparkInference](https://gitee.com/deep-spark/deepsparkinference) selects small inference model examples and guidance documents based on the independant-developed inference engines IGIE and ixRT, as well as large language model inference examples using mainstream open-source inference engines such as vLLM.
+
+### Supported Application Frameworks
+
+The Hundreds of Applications Open Platform supports mainstream application frameworks and toolkits both domestically and internationally.
+
+<table border="0">
+    <tr align="center">
+        <td><a href="https://github.com/pytorch"><img alt="pytorch" src="https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png" height="30"/></td>
+        <td><a href="https://github.com/tensorflow"><img alt="tensorflow" src="https://www.tensorflow.org/images/tf_logo_horizontal.png" height="50"/></td>
+        <td><a href="https://github.com/paddlepaddle"><img alt="paddlepaddle" src="https://raw.githubusercontent.com/PaddlePaddle/Paddle/refs/heads/develop/doc/imgs/logo.png" height="45"/></td>
+    </tr>
+    <tr align="center">
+        <td><a href="https://github.com/facebookresearch/fairseq"><img alt="fairseq" src="https://raw.githubusercontent.com/facebookresearch/fairseq/refs/heads/main/docs/fairseq_logo.png" height="35"/></td>
+        <td><a href="https://github.com/wenet-e2e/wenet"><img alt= "wenet" src="resources/wenet.png" height="40"/></td>
+        <td><a href="https://github.com/microsoft/DeepSpeed"><img alt="deepspeed" src="https://raw.githubusercontent.com/deepspeedai/DeepSpeed/refs/heads/master/docs/assets/images/DeepSpeed_light.svg" height="55"/></td>
+    </tr>
+    <tr align="center">
+        <td><a href="https://github.com/hpcaitech/ColossalAI"><img alt= "colossal-ai" src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/colossal-ai_logo_vertical.png" height="25"/></td>
+        <td><a href="https://github.com/volcengine/verl"><img alt="verl" src="resources/verl.png" height="40"/></td>
+        <td><a href="https://github.com/hiyouga/LLaMA-Factory"><img alt="llama-factory" src="https://raw.githubusercontent.com/hiyouga/LLaMA-Factory/refs/heads/main/assets/logo.png" height="45"/></td>
+    </tr>
+    <tr align="center">
+        <td><a href="https://github.com/microsoft/onnxruntime"><img alt="ONNXRUNTIME" src="https://raw.githubusercontent.com/microsoft/onnxruntime/refs/heads/main/docs/images/ONNX_Runtime_logo.png" height="55"/></td>
+        <td><a href="https://github.com/vllm-project/vllm"><img alt="vLLM" src="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-light.png" height="35"/></td>
+        <td><a href="https://github.com/InternLM/lmdeploy"><img alt="LMDeploy" src="https://raw.githubusercontent.com/InternLM/lmdeploy/refs/heads/main/docs/en/_static/image/lmdeploy-logo.svg" height="40"/></td>
+    </tr>
+</table>
+
+### Open Source Projects
+
+| Project                                                                       | Description                                                                                |
+|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [iluvatar-corex-ixrt](https://gitee.com/deep-spark/iluvatar-corex-ixrt.git)   | Iluvatar CoreX ixRT high performance inference engine with examples.                       |
+| [tis-igie-backend](https://gitee.com/deep-spark/tis-igie-backend.git)         | Iluvatar CoreX IGIE backend of Triton inference framework.                                 |
+| [tis-ixrt-backend](https://gitee.com/deep-spark/tis-ixrt-backend.git)         | Iluvatar CoreX ixRT backend of Triton inference framework.                                 |
+| [go-ixdcgm](https://gitee.com/deep-spark/go-ixdcgm.git)                       | Iluvatar CoreX ixDCGM (Data Center GPU Management) Golang API.                             |
+| [go-ixml](https://gitee.com/deep-spark/go-ixml.git)                           | Iluvatar CoreX ixML (Management Library) Golang API.                                       |
+| [ix-container-toolkit](https://gitee.com/deep-spark/ix-container-toolkit.git) | Includes a container runtime and utilities to auto-configure containers for Iluvatar GPUs. |
+| [ix-device-plugin](https://gitee.com/deep-spark/ix-device-plugin.git)         | DaemonSet for Kubernetes that can help to expose the Iluvatar GPU in the K8s cluster.      |
+| [ix-exporter](https://gitee.com/deep-spark/ix-exporter.git)                   | Ix Exporter is an HTTP server that exposes Iluvatar GPU node information in K8s cluster.   |
+| [ix-feature-discovery](https://gitee.com/deep-spark/ix-feature-discovery.git) | Allows to auto-generate labels for the set of Iluvatar CoreX GPUs available on a node.     |
+| [ix-gpu-operator](https://gitee.com/deep-spark/ix-gpu-operator.git)           | Designed to help the user to provision and configure gpu components in the K8s cluster.    |
+| [ix-volcano-plugin](https://gitee.com/deep-spark/ix-volcano-plugin.git)       | Volcano scheduler extension providing optimal topology scheduling in Iluvatar GPU cluster. |
+| [ixgdb](https://gitee.com/deep-spark/ixgdb.git)                               | Iluvatar GPGPU Accelerator Open-Source Debugger: A GDB Extension based on CUDA-GDB.        |
+| [ixjpeg-python](https://gitee.com/deep-spark/ixjpeg-python.git)               | Python wrapper for ixJPEG that provides JPEG encoding and decoding functionality.          |
 
 ### IXUCA (Iluvatar CoreX Unified Compute Architecture)
 
@@ -44,34 +87,9 @@ IXUCA is compatible with mainstream GPGPU computing models, providing equivalent
 
 - The libraries in IXUCA not only support general-purpose computing but also provide fundamental operators required for deep learning application development. Developers can conveniently utilize these operators to flexibly construct various deep neural network models and other machine learning algorithms.
 
-You can visit the [Resource Center](https://support.iluvatar.com/#/ProductLine?id=2) on Iluvatar CoreX's official website to obtain the IXUCA software stack.
+### How To
 
-### Application Frameworks
-
-The Hundreds of Applications Open Platform supports mainstream application frameworks and toolkits both domestically and internationally.
-
-<table border="0">
-    <tr align="center">
-        <td><a href="https://github.com/pytorch"><img alt="pytorch" src="resources/pytorch.png" height="25"/></td>
-        <td><a href="https://github.com/tensorflow"><img alt="tensorflow" src="resources/tensorflow.png" height="25"/></td>
-    </tr>
-    <tr align="center">
-        <td><a href="https://github.com/paddlepaddle"><img alt="paddlepaddle" src="resources/paddlepaddle.png" height="40"/></td>
-        <td><a href="https://github.com/microsoft/DeepSpeed"><img alt="deepspeed" src="resources/deepspeed.png" height="40"/></td>
-    </tr>
-    <tr align="center">
-        <td><a href="https://github.com/facebookresearch/fairseq"><img alt="fairseq" src="resources/fairseq.png" height="40"/></td>
-        <td><a href="https://github.com/open-mmlab/mmdetection"><img alt="mmdetection" src="resources/mmdetection.png" height="40"/></td>
-    </tr>
-    <tr align="center">
-        <td><a href="https://github.com/wenet-e2e/wenet"><img alt= "wenet" src="resources/wenet.png" height="40"/></td>
-        <td><a href="https://github.com/hpcaitech/ColossalAI"><img alt= "colossal-ai" src="resources/colossal-ai.png" height="30"/></td>
-    </tr>
-    <tr align="center">
-        <td><a href="https://github.com/deepmodeling"><img alt="deepmodeling" src="resources/deepmodeling.png" height="40"/></td>
-        <td><a href="https://github.com/hiyouga/LLaMA-Factory"><img alt="llama-factory" src="resources/llama-factory.png" height="45"/></td>
-    </tr>
-</table>
+You can visit the [Resource Center](https://support.iluvatar.com/#/ProductLine?id=2) on Iluvatar CoreX's official website to obtain the IXUCA software stack. Then you can refer to the quick start guide to install IXUCA SDK into your environments and run training or inference samples in DeepSparkHub and DeepSparkInference modelzoo.
 
 --------
 
