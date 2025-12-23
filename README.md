@@ -44,12 +44,12 @@ DeepSpark 开源社区目前主要致力于[百大应用开放平台](#百大应
     </tr>
     <tr align="center">
         <td><a href="https://github.com/facebookresearch/fairseq"><img alt="fairseq" src="https://raw.githubusercontent.com/facebookresearch/fairseq/refs/heads/main/docs/fairseq_logo.png" height="35"/></td>
-        <td><a href="https://github.com/wenet-e2e/wenet"><img alt= "wenet" src="resources/wenet.png" height="40"/></td>
+        <td><a href="https://github.com/wenet-e2e/wenet"><img alt= "wenet" src="docs/assets/wenet.png" height="40"/></td>
         <td><a href="https://github.com/microsoft/DeepSpeed"><img alt="deepspeed" src="https://raw.githubusercontent.com/deepspeedai/DeepSpeed/refs/heads/master/docs/assets/images/DeepSpeed_light.svg" height="55"/></td>
     </tr>
     <tr align="center">
         <td><a href="https://github.com/hpcaitech/ColossalAI"><img alt= "colossal-ai" src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/colossal-ai_logo_vertical.png" height="25"/></td>
-        <td><a href="https://github.com/volcengine/verl"><img alt="verl" src="resources/verl.png" height="40"/></td>
+        <td><a href="https://github.com/volcengine/verl"><img alt="verl" src="docs/assets/verl.png" height="40"/></td>
         <td><a href="https://github.com/hiyouga/LLaMA-Factory"><img alt="llama-factory" src="https://raw.githubusercontent.com/hiyouga/LLaMA-Factory/refs/heads/main/assets/logo.png" height="45"/></td>
     </tr>
     <tr align="center">
