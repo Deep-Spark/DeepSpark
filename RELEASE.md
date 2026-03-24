@@ -8,6 +8,104 @@
 
 ## Release Notes
 
+### DeepSpark 26.03
+
+#### 特性和增强
+
+* DeepSparkHub 新增了9个大模型训练微调示例，使用了LLaMA-Factory工具箱。详见[26.03](https://gitee.com/deep-spark/deepsparkhub/releases/tag/26.03)版本日志。
+* DeepSparkInference 新增了16个推理小模型示例，涵盖视觉分类，对象检测和多目标跟踪等领域，同时新增了18个大语言模型推理示例，涉及vLLM和xDiT框架。详见[26.03](https://gitee.com/deep-spark/deepsparkinference/releases/tag/26.03)版本日志。
+
+<table>
+    </tr>
+        <tr><th colspan=5>LLM (LLaMA-Factory)</th></tr>
+    <tr>
+        <td>Qwen3-4B-Full-SFT (LLaMA-Factory)</td>
+        <td>Qwen3-4B-DPO (LLaMA-Factory)</td>
+        <td>Qwen3-4B-KTO (LLaMA-Factory)</td>
+    </tr>
+    <tr>
+        <td>Qwen3-4B-LoRA-Pretrain (LLaMA-Factory)</td>
+        <td>Qwen3-4B-LoRA-Reward (LLaMA-Factory)</td>
+        <td>Qwen3-4B-LoRA-SFT (LLaMA-Factory)</td>
+    </tr>
+    <tr>
+        <td>Qwen3-VL-4B-Full-SFT (LLaMA-Factory)</td>
+        <td>Qwen3-VL-4B-LoRA-SFT (LLaMA-Factory)</td>
+        <td>Qwen3-VL-4B-LoRA-DPO (LLaMA-Factory)</td>
+    </tr>
+    <th colspan=3>IGIE (Inference)</th>
+    <tr>
+        <td>MobileViT-S</td>
+        <td>ViT-B-32</td>
+        <td>ViT-L-14</td>
+    </tr>
+    <tr>
+        <td>DETR</td>
+        <td>RT-DETR</td>
+        <td>YOLOv11m</td>
+    </tr>
+    <tr>
+        <td>YOLOv11s</td>
+        <td>YOLOv26n</td>
+        <td>YOLOv5s</td>
+    </tr>
+    <tr>
+        <td>DenseNet121(int8)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <th colspan=3>ixRT (Inference)</th>
+    <tr>
+        <td>Swin Transformer</td>
+        <td>RepNet</td>
+        <td>Grounding DINO</td>
+    </tr>
+    <tr>
+        <td>RT-DETR</td>
+        <td>CRNN</td>
+        <td>UNet</td>
+    </tr>
+    <th colspan=3>LLM (Inference)</th>
+    <tr>
+        <td>DeepSeek-V3.1 (vLLM)</td>
+        <td>DeepSeek-VL2 (vLLM)</td>
+        <td>DeepSeek-OCR (vLLM)</td>
+    </tr>
+    <tr>
+        <td>InternLM3 (vLLM)</td>
+        <td>MiniCPM-V-4 (vLLM)</td>
+        <td>Qwen3-8B (vLLM)</td>
+    </tr>
+    <tr>
+        <td>Qwen3-32B (vLLM)</td>
+        <td>Qwen3-30B-A3B (vLLM)</td>
+        <td>Qwen3-235B-A22B (vLLM)</td>
+    </tr>
+    <tr>
+        <td>Qwen3-Next-80B (vLLM)</td>
+        <td>FLUX.1-Dev(xDiT)</td>
+        <td>HunyuanVideo(xDiT)</td>
+    </tr>
+    <tr>
+        <td>Wan2.1-T2V-14B(xDiT)</td>
+        <td>Wan2.2-TI2V-5B(xDiT)</td>
+        <td>HunyuanDiT-v1.2(xDiT)</td>
+    </tr>
+        <tr>
+        <td>SD3-Medium(xDiT)</td>
+        <td>CosyVoice (ixRT)</td>
+        <td>Stable Diffusion 2.1 (ixRT)</td>
+    </tr>
+</table>
+
+#### 贡献者
+
+感谢以下人员做出的贡献：
+
+YoungPeng，honglyua，majorli6，shengyan.zhao，yougouda，jinrui.zhang，tianyu，anders，Zhiwen Fu。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
 ### DeepSpark 25.12
 
 #### 特性和增强
@@ -18,7 +116,7 @@
 
 <table>
     </tr>
-        <tr align="left"><th colspan=5>LLM (LLaMA-Factory)</th></tr>
+        <tr><th colspan=5>LLM (LLaMA-Factory)</th></tr>
     <tr>
         <td>Llama3-8B-DPO</td>
         <td>Llama3-8B-Full-SFT</td>
