@@ -22,6 +22,14 @@ DeepSpark 开源社区目前主要致力于[百大应用开放平台](#百大应
 
 欢迎行业合作伙伴、社区用户和开发者以任何形式为 DeepSpark 开源社区做贡献，期待您的积极参与。
 
+## 近期活动
+
+* 🔥天数智芯 x 百度飞桨黑客松活动火热来袭(3月27日～6月16日）！🔥
+  * [报名入口](https://github.com/PaddlePaddle/Paddle/issues/78485)
+  * [打卡任务](https://github.com/PaddlePaddle/community/blob/master/pfcc/paddle-hardware/%E5%9F%BA%E4%BA%8E%E5%A4%A9%E6%95%B0%E6%99%BA%E8%8A%AF-BI-150S-%E7%9A%84-FastDeploy-%E7%BC%96%E8%AF%91%E4%B8%8E%E6%89%93%E5%8C%85.md)
+  * [进阶任务](https://github.com/PaddlePaddle/community/blob/master/hackathon/hackathon_10th/%E3%80%90Hackathon_10th%E3%80%91%E6%96%87%E5%BF%83%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E4%BB%BB%E5%8A%A1%E5%90%88%E9%9B%86.md#%E5%A4%A9%E6%95%B0%E6%99%BA%E8%8A%AF%E5%9F%BA%E4%BA%8E%E5%A4%A9%E6%95%B0%E6%99%BA%E8%8A%AF%E7%A1%AC%E4%BB%B6%E4%B8%8E%E6%96%87%E5%BF%83%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%88%9B%E6%96%B0%E5%BA%94%E7%94%A8)
+  * [算力指南](https://aistudio.baidu.com/projectdetail/10039684)
+
 ## 百大应用开放平台
 
 百大应用开放平台作为国内领先的 AI 和通用计算应用开发及评测平台，甄选上百个与行业应用深度耦合的开源算法和模型，支持主流生态应用框架，并针对行业需求构建多维度评测体系，广泛支持各类落地场景。
