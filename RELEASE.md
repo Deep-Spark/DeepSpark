@@ -8,6 +8,79 @@
 
 ## Release Notes
 
+### DeepSpark 26.06
+
+#### 特性和增强
+
+* DeepSparkHub 新增了6个大模型训练微调示例，使用了LoongForge工具箱。详见[26.06](https://gitee.com/deep-spark/deepsparkhub/releases/tag/26.06)版本日志。
+* DeepSparkInference 新增了15个推理小模型示例，涵盖视觉分类，对象检测和多目标跟踪等领域，同时新增了9个大语言模型推理示例，涉及使用ComfyUI，Indextts，Qwen-TTS，Qwen-ASR等。详见[26.06](https://gitee.com/deep-spark/deepsparkinference/releases/tag/26.06)版本日志。
+
+<table>
+    </tr>
+        <tr align="left"><th colspan=5>LLM</th></tr>
+    <tr>
+        <td>Qwen3-0.6B SFT (LoongForge)</td>
+        <td>Qwen3-4B SFT (LoongForge)</td>
+        <td>Qwen3-8B SFT (LoongForge)</td>
+    </tr>
+    <tr>
+        <td>Qwen3-0.6B Pretrain (LoongForge)</td>
+        <td>Qwen3-4B Pretrain (LoongForge)</td>
+        <td>Qwen3-8B Pretrain (LoongForge)</td>
+    </tr>
+    <th colspan=3>IGIE (Inference)</th>
+  <tr>
+      <td>ConvNeXt_Large</td>
+      <td>RegNetY-800MF</td>
+      <td>RegNetY-8GF</td>
+  </tr>
+  <tr>
+      <td>ShuffleNetV1</td>
+      <td>Yolo11l</td>
+      <td>Yolo11x</td>
+  </tr>
+  <tr>
+      <td>YOLOv8l</td>
+      <td>YOLOv8x</td>
+      <td>DINOv2</td>
+  </tr>
+  <th colspan=3>ixRT (Inference)</th>
+  <tr>
+      <td>ViT</td>
+      <td>DeiT_B</td>
+      <td>MobileNet V1</td>
+  </tr>
+  <tr>
+      <td>DBNet</td>
+      <td>DDRNet</td>
+      <td>DeepSpeech2</td>
+  </tr>
+  <th colspan=3>LLM (Inference)</th>
+  <tr>
+      <td>Qwen-Image (ComfyUI)</td>
+      <td>Z-Image (Diffusers)</td>
+      <td>IndexTTS-2 (Indextts)</td>
+  </tr>
+  <tr>
+      <td>Qwen3-TTS-12Hz-1.7B-Base (Qwen-TTS)</td>
+      <td>Qwen3-ASR-1.7B (Qwen-ASR)</td>
+      <td>PaddleOCR-VL-1.5 (Transformers)</td>
+  </tr>
+  <tr>
+      <td>Qwen3-Embedding-8B (vLLM)</td>
+      <td>ERNIE-4.5-VL-28B-A3B-Thinking (Transformers)</td>
+      <td>CosyVoice (IGIE)</td>
+  </tr>
+</table>
+
+#### 贡献者
+
+感谢以下人员做出的贡献：
+
+tao.jiang，honglyua，majorli6，shengyan.zhao，fhfang，anders。
+
+欢迎以任何形式向DeepSpark社区贡献。
+
 ### DeepSpark 26.03
 
 #### 特性和增强
